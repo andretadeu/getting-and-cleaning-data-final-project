@@ -13,16 +13,16 @@ In order to create a tidy dataset, I completed the following steps:
 1. Read 'activities.txt' to get the label of all the activities.
 2. Read 'features.txt' to obtain all the characteristics extracted from the volunteers.
 3. Read the data:
-  3.1. Read the train data from X_train.txt in a data frame and labelled the columns. I appended the 'subject_train.txt' and the 'Y_train.txt' data to the data frame, whose columns where labelled 'Subject' and 'Y' respectively.
-  3.2. I executed the same steps describbed above to the test data.
-  3.3. I merged the train data with the test data.
+  * Read the train data from X_train.txt in a data frame and labelled the columns. I appended the 'subject_train.txt' and the 'Y_train.txt' data to the data frame, whose columns where labelled 'Subject' and 'Y' respectively.
+  * I executed the same steps describbed above to the test data.
+  * I merged the train data with the test data.
 4. Extracted the columns with suffix 'mean', 'std' and 'meanFreq'. I also kept in the resulting data frame the columns 'Y' and 'Subject'.
 5. Appended to the data frame the labels of the activities.
 6. Executed some feature renaming:
-  6.1. Renamed the last column from 'Name' to 'Activity.Name', so it represents better what the variable represents.
-  6.2. Replaced 'meanFreq' suffix with a more meaningful name, which I believe is 'Weighted.Average.
-  6.3. Replaced 't' prefix with what it stands for - Time
-  6.4. Replaced 'f' prefix with what it stands for - Frequency Domain
+  * Renamed the last column from 'Name' to 'Activity.Name', so it represents better what the variable represents.
+  * Replaced 'meanFreq' suffix with a more meaningful name, which I believe is 'Weighted.Average.
+  * Replaced 't' prefix with what it stands for - Time
+  * Replaced 'f' prefix with what it stands for - Frequency Domain
 7. I wrote the resulting file in 'tidy_har_dataset.txt'
 
 ### Feature list:
