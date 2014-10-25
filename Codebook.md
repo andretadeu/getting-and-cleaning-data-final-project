@@ -9,6 +9,7 @@ The dataset produced by **run_analysis.R** script, using as its primary source t
 ### The transformations
 
 In order to create a tidy dataset, I completed the following steps:
+
 1. Read 'activities.txt' to get the label of all the activities.
 2. Read 'features.txt' to obtain all the characteristics extracted from the volunteers.
 3. Read the data:
