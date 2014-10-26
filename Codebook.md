@@ -20,7 +20,7 @@ In order to create a tidy dataset, I completed the following steps:
 5. Appended to the data frame the labels of the activities.
 6. Executed some feature renaming:
   * Renamed the last column from 'Name' to 'Activity.Name', so it represents better what the variable represents.
-  * Replaced 'meanFreq' suffix with a more meaningful name, which I believe is 'Weighted.Average.
+  * Replaced 'meanFreq' suffix with a more meaningful name, which I believe is 'Weighted.Average'.
   * Replaced 't' prefix with what it stands for - Time
   * Replaced 'f' prefix with what it stands for - Frequency Domain
 7. I wrote the resulting file in 'tidy_har_dataset.txt'
@@ -29,85 +29,85 @@ In order to create a tidy dataset, I completed the following steps:
 
 Below there is an extensive list of the final dataset features:
 
-* "Activity.Id"
-* "Time.BodyAcc.mean...X"
-* "Time.BodyAcc.mean...Y"
-* "Time.BodyAcc.mean...Z"
-* "Time.BodyAcc.std...X"
-* "Time.BodyAcc.std...Y"
-* "Time.BodyAcc.std...Z"
-* "Time.GravityAcc.mean...X"
-* "Time.GravityAcc.mean...Y"
-* "Time.GravityAcc.mean...Z"
-* "Time.GravityAcc.std...X"
-* "Time.GravityAcc.std...Y"
-* "Time.GravityAcc.std...Z"
-* "Time.BodyAccJerk.mean...X"
-* "Time.BodyAccJerk.mean...Y"
-* "Time.BodyAccJerk.mean...Z"
-* "Time.BodyAccJerk.std...X"
-* "Time.BodyAccJerk.std...Y"
-* "Time.BodyAccJerk.std...Z"
-* "Time.BodyGyro.mean...X"
-* "Time.BodyGyro.mean...Y"
-* "Time.BodyGyro.mean...Z"
-* "Time.BodyGyro.std...X"
-* "Time.BodyGyro.std...Y"
-* "Time.BodyGyro.std...Z"
-* "Time.BodyGyroJerk.mean...X"
-* "Time.BodyGyroJerk.mean...Y"
-* "Time.BodyGyroJerk.mean...Z"
-* "Time.BodyGyroJerk.std...X"
-* "Time.BodyGyroJerk.std...Y"
-* "Time.BodyGyroJerk.std...Z"
-* "Time.BodyAccMag.mean.."
-* "Time.BodyAccMag.std.."
-* "Time.GravityAccMag.mean.."
-* "Time.GravityAccMag.std.."
-* "Time.BodyAccJerkMag.mean.."
-* "Time.BodyAccJerkMag.std.."
-* "Time.BodyGyroMag.mean.."
-* "Time.BodyGyroMag.std.."
-* "Time.BodyGyroJerkMag.mean.."
-* "Time.BodyGyroJerkMag.std.."
-* "FrequencyDomain.BodyAcc.mean...X"
-* "FrequencyDomain.BodyAcc.mean...Y"
-* "FrequencyDomain.BodyAcc.mean...Z"
-* "FrequencyDomain.BodyAcc.std...X"
-* "FrequencyDomain.BodyAcc.std...Y"
-* "FrequencyDomain.BodyAcc.std...Z"
-* "FrequencyDomain.BodyAcc.WeightedAverage...X"
-* "FrequencyDomain.BodyAcc.WeightedAverage...Y"
-* "FrequencyDomain.BodyAcc.WeightedAverage...Z"
-* "FrequencyDomain.BodyAccJerk.mean...X"
-* "FrequencyDomain.BodyAccJerk.mean...Y"
-* "FrequencyDomain.BodyAccJerk.mean...Z"
-* "FrequencyDomain.BodyAccJerk.std...X"
-* "FrequencyDomain.BodyAccJerk.std...Y"
-* "FrequencyDomain.BodyAccJerk.std...Z"
-* "FrequencyDomain.BodyAccJerk.WeightedAverage...X"
-* "FrequencyDomain.BodyAccJerk.WeightedAverage...Y"
-* "FrequencyDomain.BodyAccJerk.WeightedAverage...Z"
-* "FrequencyDomain.BodyGyro.mean...X"
-* "FrequencyDomain.BodyGyro.mean...Y"
-* "FrequencyDomain.BodyGyro.mean...Z"
-* "FrequencyDomain.BodyGyro.std...X"
-* "FrequencyDomain.BodyGyro.std...Y"
-* "FrequencyDomain.BodyGyro.std...Z"
-* "FrequencyDomain.BodyGyro.WeightedAverage...X"
-* "FrequencyDomain.BodyGyro.WeightedAverage...Y"
-* "FrequencyDomain.BodyGyro.WeightedAverage...Z"
-* "FrequencyDomain.BodyAccMag.mean.."
-* "FrequencyDomain.BodyAccMag.std.."
-* "FrequencyDomain.BodyAccMag.WeightedAverage.."
-* "FrequencyDomain.BodyBodyAccJerkMag.mean.."
-* "FrequencyDomain.BodyBodyAccJerkMag.std.."
-* "FrequencyDomain.BodyBodyAccJerkMag.WeightedAverage.."
-* "FrequencyDomain.BodyBodyGyroMag.mean.."
-* "FrequencyDomain.BodyBodyGyroMag.std.."
-* "FrequencyDomain.BodyBodyGyroMag.WeightedAverage.."
-* "FrequencyDomain.BodyBodyGyroJerkMag.mean.."
-* "FrequencyDomain.BodyBodyGyroJerkMag.std.."
-* "FrequencyDomain.BodyBodyGyroJerkMag.WeightedAverage.."
-* "Subject"
-* "Activity.Name"
+* "Activity.Id": integer
+* "Time.BodyAcc.mean...X": double
+* "Time.BodyAcc.mean...Y": double
+* "Time.BodyAcc.mean...Z": double
+* "Time.BodyAcc.std...X": double
+* "Time.BodyAcc.std...Y": double
+* "Time.BodyAcc.std...Z": double
+* "Time.GravityAcc.mean...X": double
+* "Time.GravityAcc.mean...Y": double
+* "Time.GravityAcc.mean...Z": double
+* "Time.GravityAcc.std...X": double
+* "Time.GravityAcc.std...Y": double
+* "Time.GravityAcc.std...Z": double
+* "Time.BodyAccJerk.mean...X": double
+* "Time.BodyAccJerk.mean...Y": double
+* "Time.BodyAccJerk.mean...Z": double
+* "Time.BodyAccJerk.std...X": double
+* "Time.BodyAccJerk.std...Y": double
+* "Time.BodyAccJerk.std...Z": double
+* "Time.BodyGyro.mean...X": double
+* "Time.BodyGyro.mean...Y": double
+* "Time.BodyGyro.mean...Z": double
+* "Time.BodyGyro.std...X": double
+* "Time.BodyGyro.std...Y": double
+* "Time.BodyGyro.std...Z": double
+* "Time.BodyGyroJerk.mean...X": double
+* "Time.BodyGyroJerk.mean...Y": double
+* "Time.BodyGyroJerk.mean...Z": double
+* "Time.BodyGyroJerk.std...X": double
+* "Time.BodyGyroJerk.std...Y": double
+* "Time.BodyGyroJerk.std...Z": double
+* "Time.BodyAccMag.mean..": double
+* "Time.BodyAccMag.std..": double
+* "Time.GravityAccMag.mean..": double
+* "Time.GravityAccMag.std..": double
+* "Time.BodyAccJerkMag.mean..": double
+* "Time.BodyAccJerkMag.std..": double
+* "Time.BodyGyroMag.mean..": double
+* "Time.BodyGyroMag.std..": double
+* "Time.BodyGyroJerkMag.mean..": double
+* "Time.BodyGyroJerkMag.std..": double
+* "FrequencyDomain.BodyAcc.mean...X": double
+* "FrequencyDomain.BodyAcc.mean...Y": double
+* "FrequencyDomain.BodyAcc.mean...Z": double
+* "FrequencyDomain.BodyAcc.std...X": double
+* "FrequencyDomain.BodyAcc.std...Y": double
+* "FrequencyDomain.BodyAcc.std...Z": double
+* "FrequencyDomain.BodyAcc.WeightedAverage...X": double
+* "FrequencyDomain.BodyAcc.WeightedAverage...Y": double
+* "FrequencyDomain.BodyAcc.WeightedAverage...Z": double
+* "FrequencyDomain.BodyAccJerk.mean...X": double
+* "FrequencyDomain.BodyAccJerk.mean...Y": double
+* "FrequencyDomain.BodyAccJerk.mean...Z": double
+* "FrequencyDomain.BodyAccJerk.std...X": double
+* "FrequencyDomain.BodyAccJerk.std...Y": double
+* "FrequencyDomain.BodyAccJerk.std...Z": double
+* "FrequencyDomain.BodyAccJerk.WeightedAverage...X": double
+* "FrequencyDomain.BodyAccJerk.WeightedAverage...Y": double
+* "FrequencyDomain.BodyAccJerk.WeightedAverage...Z": double
+* "FrequencyDomain.BodyGyro.mean...X": double
+* "FrequencyDomain.BodyGyro.mean...Y": double
+* "FrequencyDomain.BodyGyro.mean...Z": double
+* "FrequencyDomain.BodyGyro.std...X": double
+* "FrequencyDomain.BodyGyro.std...Y": double
+* "FrequencyDomain.BodyGyro.std...Z": double
+* "FrequencyDomain.BodyGyro.WeightedAverage...X": double
+* "FrequencyDomain.BodyGyro.WeightedAverage...Y": double
+* "FrequencyDomain.BodyGyro.WeightedAverage...Z": double
+* "FrequencyDomain.BodyAccMag.mean..": double
+* "FrequencyDomain.BodyAccMag.std..": double
+* "FrequencyDomain.BodyAccMag.WeightedAverage..": double
+* "FrequencyDomain.BodyBodyAccJerkMag.mean..": double
+* "FrequencyDomain.BodyBodyAccJerkMag.std..": double
+* "FrequencyDomain.BodyBodyAccJerkMag.WeightedAverage..": double
+* "FrequencyDomain.BodyBodyGyroMag.mean..": double
+* "FrequencyDomain.BodyBodyGyroMag.std..": double
+* "FrequencyDomain.BodyBodyGyroMag.WeightedAverage..": double
+* "FrequencyDomain.BodyBodyGyroJerkMag.mean..": double
+* "FrequencyDomain.BodyBodyGyroJerkMag.std..": double
+* "FrequencyDomain.BodyBodyGyroJerkMag.WeightedAverage..": double
+* "Subject": integer, ranges from 1 to 30
+* "Activity.Name": integer, Levels: LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS
